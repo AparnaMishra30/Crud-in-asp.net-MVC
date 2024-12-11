@@ -1,0 +1,36 @@
+﻿@model mvclearn.Models.Model 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                @* Html.BeginForm("ActionMethod", "ControllerName","Get⁄Post Method") *@
+                @using (Html.BeginForm("Edit", "Model", FormMethod.Post))
+                {
+                    <table>
+
+                        <tr>
+                            <th>Person Name</th>
+                            <td>@Html.TextBoxFor(m => m.personname)</td>
+                        </tr>
+                        @*<tr>
+                            <th>Person Age</th>
+                            <td>@Html.TextBoxFor(m => m.personage)</td>
+                        </tr>*@
+                        <tr>
+                            <td><input id="Edit" type="submit" value="Edit" /></td>
+                        </tr>
+
+                    </table>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>

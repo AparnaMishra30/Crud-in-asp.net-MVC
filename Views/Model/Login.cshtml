@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Login";
+
+}
+@model IEnumerable<mvclearn.Models.Model>
+<h2>@ViewBag.Title.</h2>
+
+<p>Use this area to provide additional information.</p>
+<link rel="stylesheet" href="~/css/style.css">
+<table>
+    <thead>
+        <tr>
+            <td>@Html.DisplayNameFor(m => m.personid)</td>
+            <td>@Html.DisplayNameFor(m => m.personname)</td>
+            @*<td>@Html.DisplayNameFor(m => m.personage)</td>*@
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+    <td>@Html.DisplayFor(ModelItem => item.personid)</td>
+    <td>@Html.DisplayFor(modelItem => item.personname)</td>
+    @*<td>@Html.DisplayFor(modelItem => item.personage)</td>*@
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.personid })
+        @Html.ActionLink("Delete", "Delete", new { id = item.personid })
+    </td>
+</tr>
+        }
+    }
+        </tbody>
+    </table>

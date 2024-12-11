@@ -1,0 +1,15 @@
+﻿table {
+    padding: 10px;
+    margin-left: 300px;
+    border: groove;
+}
+thead {
+    font-size: x-large;
+    background-color: antiquewhite;
+    position: relative;
+    border: groove;
+}
+tbody {
+    font-size: large;
+    border: groove;
+}

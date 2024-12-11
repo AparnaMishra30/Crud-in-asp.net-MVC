@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35229.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvclearn", "mvclearn.csproj", "{C6F3EE44-8720-436D-AF06-AF9B20E119C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6F3EE44-8720-436D-AF06-AF9B20E119C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F3EE44-8720-436D-AF06-AF9B20E119C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F3EE44-8720-436D-AF06-AF9B20E119C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F3EE44-8720-436D-AF06-AF9B20E119C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5A0A945-04EC-4212-B8E6-D86301F98416}
+	EndGlobalSection
+EndGlobal
